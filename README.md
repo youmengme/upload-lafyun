@@ -27,6 +27,6 @@ uses: youmengme/upload-lafyun
 with:
     accessKey: ${{ secrets.LAF_ACCESS_KEY }}
     accessSecret: ${{ secrets.LAF_ACCESS_SECRET }}
-    bucket: ${{ secrets.LAF_bucket }}
+    bucket: ${{ secrets.LAF_BUCKET }}
     assetPath: './dist'
 ```
