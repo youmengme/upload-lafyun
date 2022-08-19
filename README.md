@@ -20,19 +20,13 @@ Upload files to oss of aliyun
 
 **Required** file path to be uploaded. Default `''`.
 
-### `targetPath`
-
-**Required** path where the oss object is stored. Default `''`.
-
 ## Example usage
 
 ```yaml
-uses: nebula-actions/upload-oss
+uses: youmengme/upload-lafyun
 with:
-    key-id: ${{ secrets.OSS_ID }}
-    key-secret: ${{ secrets.OSS_SECRET }}
-    endpoint: ${{ secrets.OSS_ENDPOINT }}
+    accessKey: ${{ secrets.OSS_ID }}
+    accessSecret: ${{ secrets.OSS_SECRET }}
     bucket: oss-bucket
-    asset-path: /path/to/assets
-    target-path: /path/to/target/files
+    assetPath: /path/to/assets
 ```
