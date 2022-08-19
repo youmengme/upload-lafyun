@@ -28,5 +28,5 @@ env:
     ACCESS_KEY: ${{ secrets.LAF_ACCESS_KEY }}
     ACCESS_SECRET: ${{ secrets.LAF_ACCESS_SECRET }}
     BUCKET_NAME: ${{ secrets.LAF_BUCKET }}
-    ASSET_PATH: './dist'
+    ASSET_PATH: './'
 ```
