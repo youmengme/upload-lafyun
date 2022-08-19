@@ -25,6 +25,7 @@ inputs:
     default: ''
 runs:
   using: "node16"
+  main: 'index.js'
   steps:
     - run: |
         npm install -g laf-cli
