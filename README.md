@@ -25,8 +25,8 @@ Upload files to oss of aliyun
 ```yaml
 uses: youmengme/upload-lafyun
 with:
-    accessKey: ${{ secrets.OSS_ID }}
-    accessSecret: ${{ secrets.OSS_SECRET }}
-    bucket: oss-bucket
-    assetPath: /path/to/assets
+    accessKey: ${{ secrets.LAF_ACCESS_KEY }}
+    accessSecret: ${{ secrets.LAF_ACCESS_SECRET }}
+    bucket: ${{ secrets.LAF_bucket }}
+    assetPath: './dist'
 ```
