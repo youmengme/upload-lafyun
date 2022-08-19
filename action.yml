@@ -1,0 +1,34 @@
+name: 'Upload lafyun Cloud'
+description: 'Upload files to lafyun cloud'
+inputs:
+  accessKey:
+    description: 'access key ID'
+    required: true
+    default: ''
+  accessSecret:
+    description: 'access secret'
+    required: true
+    default: ''
+  bucket:
+    description: 'lafyun oss bucket name'
+    required: true
+    default: ''
+  assetPath:
+    description: 'file path to be uploaded'
+    required: true
+    default: './'
+  targetPath:
+    description: 'file path stored on the lafyun oss'
+    required: true
+    default: ''
+runs:
+  using: "node16"
+  steps:
+    - run: |
+        npm install -g laf-cli
+        laf-cli sync \
+          --access-key {{ inputs.accessKey }} \
+          --access-secret {{ inputs.accessSecret }}  \
+          --bucket-name {{ inputs.bucket }}  \
+          {{ inputs.assetPath }}
+      shell: bash
