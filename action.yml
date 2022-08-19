@@ -1,7 +1,7 @@
 name: 'Upload lafyun Cloud'
 description: 'Upload files to lafyun cloud'
-icon: upload-cloud
-color: purple
+icon: 'upload-cloud'
+color: 'purple'
 inputs:
   accessKey:
     description: 'access key ID'
