@@ -4,26 +4,26 @@ Upload files to oss of aliyun
 
 ## Inputs
 
-### `accessKey`
+### `ACCESS_KEY`
 
 **Required** access key ID of oss. Default `''`.
 
-### `accessSecret`
+### `ACCESS_SECRET`
 
 **Required** access key secret of oss. Default `''`.
 
-### `bucket`
+### `BUCKET_NAME`
 
-**Required** bucket of oss. Default `''`.
+**Required** bucket name of lafyun oss. Default `''`.
 
-### `assetPath`
+### `ASSET_PATH`
 
 **Required** file path to be uploaded. Default `''`.
 
 ## Example usage
 
 ```yaml
-uses: youmengme/upload-lafyun
+uses: youmengme/upload-lafyun@latest
 env:
     ACCESS_KEY: ${{ secrets.LAF_ACCESS_KEY }}
     ACCESS_SECRET: ${{ secrets.LAF_ACCESS_SECRET }}
