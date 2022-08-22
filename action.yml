@@ -1,0 +1,9 @@
+name: 'lafyun cloud deploy'
+description: 'A GitHub Action to build and publish sites to lafyun'
+author: 'youmeng'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'upload-cloud'
+  color: 'purple'
