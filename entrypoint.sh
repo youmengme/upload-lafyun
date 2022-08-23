@@ -22,7 +22,7 @@ fi
 laf login -u $USER_ACCOUNT -p $PASSWORD -r $DEPLOY_REGION
 
 # 上传
-laf oss push $ASSET_PATH $TARGET_PATH
+laf oss push $ASSET_PATH $BUCKET
 
 
 echo "Successfully deployed!"
