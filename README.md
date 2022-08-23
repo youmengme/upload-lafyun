@@ -28,7 +28,10 @@ Upload files to oss of aliyun
 
 **Required** 要上传的文件夹的路径. Default `''`.
 
+
 ## Example usage
+
+[Example](https://github.com/youmengme/upload-lafyun-example)
 
 ```yaml
 uses: youmengme/upload-lafyun@v1.0
