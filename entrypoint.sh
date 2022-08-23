@@ -21,6 +21,8 @@ fi
 # 登录lafyun
 laf login -u $USER_ACCOUNT -p $PASSWORD -r $DEPLOY_REGION
 
+laf init $APPID
+
 # 上传
 laf oss push $ASSET_PATH $BUCKET
 

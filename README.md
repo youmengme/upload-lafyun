@@ -12,6 +12,10 @@ Upload files to oss of aliyun
 
 **Required** lafyun的密码. Default `''`.
 
+### `APPID`
+
+**Required** lafyun的应用ID(APP ID). Default `''`.
+
 ### `REGION`
 
 **Required** lafyun控制台的域名。私有部署请填写私有部署的控制台的域名。 Default `'https://console.lafyun.com'`.
@@ -31,6 +35,7 @@ uses: youmengme/upload-lafyun@latest
 env:
     USER_ACCOUNT: ${{ secrets.LAF_ACCOUNT }}
     PASSWORD: ${{ secrets.LAF_PASSWORD }}
+    APPID: ${{ secrets.LAF_APPID }}
     REGION: ${{ secrets.LAF_REGION }}
     BUCKET: ${{ secrets.LAF_BUCKET }}
     ASSET_PATH: './docs'
