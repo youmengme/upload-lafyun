@@ -38,5 +38,5 @@ env:
     APPID: ${{ secrets.LAF_APPID }}
     REGION: ${{ secrets.LAF_REGION }}
     BUCKET: ${{ secrets.LAF_BUCKET }}
-    ASSET_PATH: './docs'
+    ASSET_PATH: './dist'
 ```
