@@ -31,7 +31,7 @@ Upload files to oss of aliyun
 ## Example usage
 
 ```yaml
-uses: youmengme/upload-lafyun@latest
+uses: youmengme/upload-lafyun@v1.0
 env:
     USER_ACCOUNT: ${{ secrets.LAF_ACCOUNT }}
     PASSWORD: ${{ secrets.LAF_PASSWORD }}
