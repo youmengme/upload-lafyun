@@ -1,6 +1,6 @@
 # Upload Lafyun OSS
 
-Upload files to oss of aliyun
+Upload files to oss of lafyun
 
 ## Inputs
 
